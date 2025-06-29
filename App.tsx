@@ -1,9 +1,8 @@
 
-
 import React, { useState, useEffect, useRef, useCallback } from 'react';
 import type { PivotedData, RawDataRow } from './types';
 import { SovType } from './types';
-import { fetchDataAndProcess, downloadExcel, downloadCsv } from './services/dataService';
+import { fetchDataAndProcess, downloadExcel, downloadCsv } from './dataService';
 
 // --- UTILITY HOOK ---
 const useOnClickOutside = <T extends HTMLElement>(ref: React.RefObject<T>, handler: (event: MouseEvent | TouchEvent) => void) => {
