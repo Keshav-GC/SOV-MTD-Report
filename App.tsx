@@ -90,7 +90,7 @@ const MultiSelectDropdown: React.FC<MultiSelectDropdownProps> = ({ allCategories
       </button>
 
       {isOpen && (
-        <div className="absolute mt-1 w-full rounded-md bg-white shadow-lg z-20">
+        <div className="absolute mt-1 w-full rounded-md bg-white shadow-lg z-40">
           <div className="p-2">
             <input type="text" placeholder="Search..." value={searchTerm} onChange={e => setSearchTerm(e.target.value)} className="w-full px-2 py-1 border border-gray-300 rounded-md"/>
           </div>
