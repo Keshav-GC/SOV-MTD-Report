@@ -1,0 +1,5 @@
+{
+  "name": "Grupo Bimbo SOV Dashboard",
+  "description": "An interactive, password-protected dashboard to visualize Share of Voice (SOV) data for Grupo Bimbo, loaded from Google Sheets. Features advanced filtering and a pivot-table-style report.",
+  "requestFramePermissions": []
+}
